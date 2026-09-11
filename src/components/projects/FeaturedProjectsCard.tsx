@@ -6,7 +6,7 @@ interface FeaturedProjectsCardPropsTypes {
 export default function FeaturedProjectsCard({ project }: FeaturedProjectsCardPropsTypes) {
     return (
         <div className="border border-[#72ADF9] rounded-2xl p-5 pb-10 space-y-3">
-            <img src={project.imageUrl} alt="" className="h-[60] mx-auto" />
+            <img src={project.imageUrl} alt="" className="h-40 w-full mx-auto" />
             <h2 className="font-bold text-2xl text-[#031f37] ">{project.title}</h2>
             <p>{project.description}</p>
 
