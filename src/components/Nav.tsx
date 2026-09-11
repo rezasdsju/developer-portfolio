@@ -19,7 +19,7 @@ export default function Nav() {
         <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           About
         </li>
-        <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
+        <li onClick={()=>document.getElementById('projects')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Projects
         </li>
         <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
