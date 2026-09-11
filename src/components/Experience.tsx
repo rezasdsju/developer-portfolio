@@ -2,7 +2,7 @@ import { FaRocket } from "react-icons/fa";
 
 export default function Experience() {
   return (
-    <div className="my-12 sm:my-16 px-5 sm:px-8 md:px-10">
+    <div className="scroll-mt-20 my-12 sm:my-16 px-5 sm:px-8 md:px-10" id="experience">
 
       {/* Section Header */}
       <div className="mb-8">

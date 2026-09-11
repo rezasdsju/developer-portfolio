@@ -25,7 +25,7 @@ export default function Nav() {
         <li onClick={() => document.getElementById('skill')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Skills
         </li>
-        <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
+        <li onClick={()=>document.getElementById('experience')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Experience
         </li>
         <li onClick={()=>document.getElementById('contact')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
