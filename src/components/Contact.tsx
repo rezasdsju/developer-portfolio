@@ -78,13 +78,34 @@ export default function Contact() {
                   github.com/rezasdsju
                 </a>
               </div>
+
             </div>
+
+           <div className="flex items-center gap-4">
+              <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-xl text-[#031f37] shadow-sm">
+                <FaGithub />
+              </span>
+
+              <div>
+                <p className="text-sm text-slate-500">Linked In</p>
+                <a
+                  href="https://www.linkedin.com/in/rezaul-karim-rifat-833154370/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-slate-700 hover:text-[#157AD5] transition-colors"
+                >
+                  linkedin.com/in/rezaul-karim-rifat
+                </a>
+              </div>
+
+            </div>
+            
 
           </div>
         </div>
 
         {/* Contact Form */}
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm">
+        <div className="rounded-3xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm sm:pb-2" >
 
           <h2 className="text-xl font-bold text-[#031f37] mb-6">
             Send Me a Message
@@ -106,15 +127,15 @@ export default function Contact() {
               />
             </div>
 
-            <input
+            {/* <input
               type="text"
               placeholder="Subject"
               className="w-full rounded-xl border border-slate-200 px-4 py-3 outline-none focus:border-[#157AD5] focus:ring-2 focus:ring-blue-100 transition"
-            />
+            /> */}
 
             <textarea
               placeholder="Your Message"
-              rows={5}
+              rows={4}
               className="w-full resize-none rounded-xl border border-slate-200 px-4 py-3 outline-none focus:border-[#157AD5] focus:ring-2 focus:ring-blue-100 transition"
             />
 
