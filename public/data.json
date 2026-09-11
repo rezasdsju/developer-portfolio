@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "imageUrl": "/country-image.png",
+    "title": "Country Explorer",
+    "description": "Explore Countries, mark visited and view details. Built with React and TypeScript.",
+    "framework": "React",
+    "language": "TypeScript",
+    "additionalTechnology": "Tailwind CSS",
+    "rating": 5
+  },
+  {
+    "id": "2",
+    "imageUrl": "/country-image.png",
+    "title": "Grocery Store",
+    "description": "Search products, filter products by stock status and explore grocery items.",
+    "framework": "React",
+    "language": "TypeScript",
+    "additionalTechnology": "Tailwind CSS",
+    "rating": 4
+  },
+  {
+    "id": "3",
+    "imageUrl": "/country-image.png",
+    "title": "Tic Tac Toe",
+    "description": "Play a classic Tic Tac Toe game with interactive board and winner detection.",
+    "framework": "React",
+    "language": "TypeScript",
+    "additionalTechnology": "Tailwind CSS",
+    "rating": 5
+  },
+  {
+    "id": "4",
+    "imageUrl": "/country-image.png",
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website showcasing skills, projects and development experience.",
+    "framework": "React",
+    "language": "TypeScript",
+    "additionalTechnology": "Tailwind CSS",
+    "rating": 5
+  },
+  {
+    "id": "5",
+    "imageUrl": "/country-image.png",
+    "title": "Weather Dashboard",
+    "description": "Check weather information and explore current weather conditions for different locations.",
+    "framework": "React",
+    "language": "JavaScript",
+    "additionalTechnology": "REST API",
+    "rating": 4
+  },
+  {
+    "id": "6",
+    "imageUrl": "/country-image.png",
+    "title": "Task Manager",
+    "description": "Manage daily tasks by adding, updating and organizing tasks in one place.",
+    "framework": "React",
+    "language": "TypeScript",
+    "additionalTechnology": "Tailwind CSS",
+    "rating": 4
+  },
+  {
+    "id": "7",
+    "imageUrl": "/country-image.png",
+    "title": "Blog Platform",
+    "description": "A simple blog platform for exploring articles and managing blog content.",
+    "framework": "Django",
+    "language": "Python",
+    "additionalTechnology": "Django Templates",
+    "rating": 5
+  },
+  {
+    "id": "8",
+    "imageUrl": "/country-image.png",
+    "title": "E-Commerce Store",
+    "description": "Browse products, explore categories and manage products in an online store.",
+    "framework": "Django",
+    "language": "Python",
+    "additionalTechnology": "Django REST Framework",
+    "rating": 5
+  },
+  {
+    "id": "9",
+    "imageUrl": "/country-image.png",
+    "title": "Student Management",
+    "description": "Manage student information and organize academic records through a web application.",
+    "framework": "Django",
+    "language": "Python",
+    "additionalTechnology": "PostgreSQL",
+    "rating": 4
+  },
+  {
+    "id": "10",
+    "imageUrl": "/country-image.png",
+    "title": "Expense Tracker",
+    "description": "Track daily expenses and organize spending information through a simple interface.",
+    "framework": "React",
+    "language": "TypeScript",
+    "additionalTechnology": "Tailwind CSS",
+    "rating": 4
+  }
+]
