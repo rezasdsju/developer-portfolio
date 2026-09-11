@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Banner from "./components/Banner"
+import Contact from "./components/Contact"
 import Experience from "./components/Experience"
 import Nav from "./components/Nav"
 import Projects from "./components/projects/Projects"
@@ -23,6 +24,7 @@ function App() {
       <About></About>
       <Projects projectsDataPromise={projectsDataPromise}></Projects>
       <Experience></Experience>
+      <Contact></Contact>
     </>
   )
 }
