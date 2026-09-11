@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md flex sm:grid grid-cols-3 mx-auto py-3 shadow-sm border-b border-slate-100">
 
-      <h1 className="flex items-center ml-3 font-extrabold text-2xl tracking-tight">
+      <h1 className="flex items-center ml-3 font-extrabold text-2xl tracking-tight mx-auto text-center sm:pl-8">
         <span className="text-[#157AD5]">R</span>
         <span className="text-[#32042f]">K</span>
         <span className="text-[#5559F7]">R</span>
