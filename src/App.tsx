@@ -2,6 +2,7 @@ import About from "./components/About"
 import Banner from "./components/Banner"
 import Contact from "./components/Contact"
 import Experience from "./components/Experience"
+import Footer from "./components/Footer"
 import Nav from "./components/Nav"
 import Projects from "./components/projects/Projects"
 import type { ProjectDataType } from "./types/projectDataTypes"
@@ -25,6 +26,7 @@ function App() {
       <Projects projectsDataPromise={projectsDataPromise}></Projects>
       <Experience></Experience>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   )
 }

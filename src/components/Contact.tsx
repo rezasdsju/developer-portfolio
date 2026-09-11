@@ -1,5 +1,5 @@
 
-import { FaGithub, FaLocationDot } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
@@ -83,7 +83,8 @@ export default function Contact() {
 
            <div className="flex items-center gap-4">
               <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white text-xl text-[#031f37] shadow-sm">
-                <FaGithub />
+                <FaLinkedin />
+
               </span>
 
               <div>
