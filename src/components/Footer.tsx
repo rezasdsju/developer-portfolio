@@ -23,23 +23,23 @@ export default function Footer() {
         {/* Navigation */}
         <div className="flex justify-center">
           <ul className="flex flex-wrap justify-center gap-x-5 gap-y-3 text-sm text-slate-300">
-            <li className="cursor-pointer hover:text-[#157AD5] transition-colors">
+            <li onClick={()=>document.getElementById('about')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors">
               About
             </li>
 
-            <li className="cursor-pointer hover:text-[#157AD5] transition-colors">
+            <li onClick={()=>document.getElementById('projects')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors">
               Projects
             </li>
 
-            <li className="cursor-pointer hover:text-[#157AD5] transition-colors">
+            <li onClick={()=>document.getElementById('skill')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors">
               Skills
             </li>
 
-            <li className="cursor-pointer hover:text-[#157AD5] transition-colors">
+            <li onClick={()=>document.getElementById('experience')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors">
               Experience
             </li>
 
-            <li className="cursor-pointer hover:text-[#157AD5] transition-colors">
+            <li onClick={()=>document.getElementById('contact')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors">
               Contact
             </li>
           </ul>
