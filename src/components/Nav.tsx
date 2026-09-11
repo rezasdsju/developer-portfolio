@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Nav() {
   return (
-    <nav className="sticky top-0 z-50 bg-[#061122] flex sm:grid grid-cols-3 mx-auto py-3">
+    <nav className="sticky top-0 z-50 bg-slate-700 flex sm:grid grid-cols-3 mx-auto py-3">
         
         <h1 className="flex items-center ml-3 font-bold text-2xl"><span className="text-[#157AD5] ">R</span><span className="text-[#F9FAFB]">K</span><span className="text-[#5559F7]">R</span></h1>
         <ul className="hidden sm:flex items-center gap-5  text-white">
