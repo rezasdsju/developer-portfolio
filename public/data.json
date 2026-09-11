@@ -1,102 +1,85 @@
 [
-  {
-    "id": "1",
-    "imageUrl": "/country-image.png",
-    "title": "Country Explorer",
-    "description": "Explore Countries, mark visited and view details. Built with React and TypeScript.",
-    "framework": "React",
-    "language": "TypeScript",
-    "additionalTechnology": "Tailwind CSS",
-    "rating": 5
-  },
-  {
-    "id": "2",
-    "imageUrl": "/country-image.png",
-    "title": "Grocery Store",
-    "description": "Search products, filter products by stock status and explore grocery items.",
-    "framework": "React",
-    "language": "TypeScript",
-    "additionalTechnology": "Tailwind CSS",
-    "rating": 4
-  },
-  {
-    "id": "3",
-    "imageUrl": "/country-image.png",
-    "title": "Tic Tac Toe",
-    "description": "Play a classic Tic Tac Toe game with interactive board and winner detection.",
-    "framework": "React",
-    "language": "TypeScript",
-    "additionalTechnology": "Tailwind CSS",
-    "rating": 5
-  },
-  {
-    "id": "4",
-    "imageUrl": "/country-image.png",
-    "title": "Portfolio Website",
-    "description": "A personal portfolio website showcasing skills, projects and development experience.",
-    "framework": "React",
-    "language": "TypeScript",
-    "additionalTechnology": "Tailwind CSS",
-    "rating": 5
-  },
-  {
-    "id": "5",
-    "imageUrl": "/country-image.png",
-    "title": "Weather Dashboard",
-    "description": "Check weather information and explore current weather conditions for different locations.",
-    "framework": "React",
-    "language": "JavaScript",
-    "additionalTechnology": "REST API",
-    "rating": 4
-  },
-  {
-    "id": "6",
-    "imageUrl": "/country-image.png",
-    "title": "Task Manager",
-    "description": "Manage daily tasks by adding, updating and organizing tasks in one place.",
-    "framework": "React",
-    "language": "TypeScript",
-    "additionalTechnology": "Tailwind CSS",
-    "rating": 4
-  },
-  {
-    "id": "7",
-    "imageUrl": "/country-image.png",
-    "title": "Blog Platform",
-    "description": "A simple blog platform for exploring articles and managing blog content.",
-    "framework": "Django",
-    "language": "Python",
-    "additionalTechnology": "Django Templates",
-    "rating": 5
-  },
-  {
-    "id": "8",
-    "imageUrl": "/country-image.png",
-    "title": "E-Commerce Store",
-    "description": "Browse products, explore categories and manage products in an online store.",
-    "framework": "Django",
-    "language": "Python",
-    "additionalTechnology": "Django REST Framework",
-    "rating": 5
-  },
-  {
-    "id": "9",
-    "imageUrl": "/country-image.png",
-    "title": "Student Management",
-    "description": "Manage student information and organize academic records through a web application.",
-    "framework": "Django",
-    "language": "Python",
-    "additionalTechnology": "PostgreSQL",
-    "rating": 4
-  },
-  {
-    "id": "10",
-    "imageUrl": "/country-image.png",
-    "title": "Expense Tracker",
-    "description": "Track daily expenses and organize spending information through a simple interface.",
-    "framework": "React",
-    "language": "TypeScript",
-    "additionalTechnology": "Tailwind CSS",
-    "rating": 4
-  }
+{
+  "id": "1",
+  "imageUrl": "/natures-platter.png",
+  "title": "Nature's Platter",
+  "description": "A responsive food website showcasing fresh and healthy food items with a clean and user-friendly interface.",
+  "framework": "Tailwind",
+  "language": "HTML",
+  "additionalTechnology": "Responsive",
+  "rating": 5,
+  "githubUrl": "https://github.com/rezasdsju/Nature-s-Platter.git",
+  "liveUrl": "https://rezasdsju.github.io/Nature-s-Platter/"
+},
+{
+  "id": "2",
+  "imageUrl": "/devstack.png",
+  "title": "DevStack",
+  "description": "A developer-focused web application built with React and TypeScript for exploring development resources and technologies.",
+  "framework": "React",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind CSS",
+  "rating": 5,
+  "githubUrl": "https://github.com/rezasdsju/devstack.git",
+  "liveUrl": "https://devstack-8tc8r664t-reza-babd.vercel.app/"
+},
+
+    
+
+{
+  "id": "3",
+  "imageUrl": "/bpl-dream.png",
+  "title": "BPL Dream Eleven",
+  "description": "A cricket team management web application where users can explore players and build their own dream team.",
+  "framework": "React",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind CSS",
+  "rating": 5,
+  "githubUrl": "https://github.com/rezasdsju/BPL-Dream-Eleven.git",
+  "liveUrl": "https://bpl-dream-eleven-asgwot12s-reza-babd.vercel.app/"
+},
+
+
+{
+  "id": "4",
+  "imageUrl": "/country-image.png",
+  "title": "Country Explorer",
+  "description": "A country exploration web application where users can explore country information, view details, and mark countries as visited.",
+  "framework": "React",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind CSS",
+  "rating": 5,
+  "githubUrl": "https://github.com/rezasdsju/Country-Explorer-React-TS-.git",
+  "liveUrl": "https://lighthearted-chimera-34f191.netlify.app/"
+},
+
+
+
+{
+  "id": "5",
+  "imageUrl": "/grocery.png",
+  "title": "Grocery Store",
+  "description": "A grocery product search application where users can search for products and filter items based on their stock availability.",
+  "framework": "React",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind CSS",
+  "rating": 4,
+  "githubUrl": "https://github.com/rezasdsju/product-search-react-ts.git",
+  "liveUrl": "https://search-3hs9sc98m-reza-babd.vercel.app/"
+},
+
+
+{
+  "id": "6",
+  "imageUrl": "/tic-tac.png",
+  "title": "Tic-Tac-Toe",
+  "description": "A classic Tic-Tac-Toe game built with React and TypeScript, allowing two players to play the game and displaying the winner when the game ends.",
+  "framework": "React",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind CSS",
+  "rating": 4,
+  "githubUrl": "https://github.com/rezasdsju/tic-tac-toe-game.git",
+  "liveUrl": "https://tic-tac-toe-game-de3rii9gz-reza-babd.vercel.app/"
+}
+
 ]
