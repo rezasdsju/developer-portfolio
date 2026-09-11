@@ -29,7 +29,7 @@ const Projects = ({ projectsDataPromise }: ProjectsPropsTypes) => {
         }
     }
     return (
-        <div className="sm:mt-15 " id ='projects'>
+        <div className="sm:mt-15 scroll-mt-20" id ='projects'>
             <div className="grid grid-cols-1 sm:grid-cols-12 px-3 sm:px-8">
                 <div className="sm:col-span-8">
                     <h2 className="text-[#17345f] text-2xl font-bold">My Projects</h2>

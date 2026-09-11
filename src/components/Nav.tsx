@@ -16,13 +16,13 @@ export default function Nav() {
         <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Home
         </li>
-        <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
+        <li onClick={()=>document.getElementById('about')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           About
         </li>
         <li onClick={()=>document.getElementById('projects')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Projects
         </li>
-        <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
+        <li onClick={() => document.getElementById('skill')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Skills
         </li>
         <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
