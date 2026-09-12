@@ -22,7 +22,12 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="flex justify-center">
+
           <ul className="flex flex-wrap justify-center gap-x-5 gap-y-3 text-sm text-slate-300">
+                      <li onClick={()=>window.scrollTo({top:0, behavior:'smooth'})
+          } className="cursor-pointer hover:text-[#157AD5] transition-colors">
+              Home
+            </li>
             <li onClick={()=>document.getElementById('about')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors">
               About
             </li>

@@ -21,7 +21,8 @@ export default function Nav() {
       </h1>
 
       <ul className={`hidden sm:flex items-center justify-center gap-5 text-slate-700 font-medium text-sm `}>
-        <li className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
+        <li onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })
+            } className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
           Home
         </li>
         <li onClick={()=>document.getElementById('about')?.scrollIntoView()} className="cursor-pointer hover:text-[#157AD5] transition-colors duration-200">
@@ -56,7 +57,9 @@ export default function Nav() {
     </nav>
     <div className={`  ${isHamburgerClicked?'flex flex-col  items-center bg-lime-100 py-2':'hidden'}`}>
       <ul className="font-bold text-[#157AD5]">
-        <li className="cursor-pointer  hover:text-[#157AD5] transition-colors duration-200">
+        <li onClick={()=>{
+          window.scrollTo({top:0, behavior:'smooth'})
+          setIsHamburgerClicked(!isHamburgerClicked)}} className="cursor-pointer  hover:text-[#157AD5] transition-colors duration-200">
           Home
         </li>
         <li onClick={()=>{
