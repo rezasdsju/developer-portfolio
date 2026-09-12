@@ -13,6 +13,9 @@ const Projects = ({ projectsDataPromise }: ProjectsPropsTypes) => {
     console.log(projects)
     const handleViewAllProject = () => {
         setViewAllProject(!viewAllProject)
+        document.getElementById("project-cards")?.scrollIntoView({
+            behavior: "smooth"
+        });
         if (!viewAllProject) {
             toast.success(`All of ${projects.length} Project are shown`, {
                 position: "bottom-right",
