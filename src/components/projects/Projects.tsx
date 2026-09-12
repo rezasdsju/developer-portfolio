@@ -10,7 +10,7 @@ interface ProjectsPropsTypes {
 const Projects = ({ projectsDataPromise }: ProjectsPropsTypes) => {
     const projects = use(projectsDataPromise)
     const [viewAllProject, setViewAllProject] = useState<boolean>(false)
-    console.log(projects)
+    // console.log(projects)
     const handleViewAllProject = () => {
         setViewAllProject(!viewAllProject)
         document.getElementById("project-cards")?.scrollIntoView({
