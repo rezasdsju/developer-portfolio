@@ -43,10 +43,10 @@ export default function Nav() {
       </ul>
 
       <div className="mx-auto flex items-center">
-        <button className="hidden md:flex bg-slate-900 hover:bg-[#157AD5] text-white font-semibold px-4 py-2 items-center rounded-xl gap-2 transition-all duration-300 shadow-sm hover:shadow-md">
+        <a href="/ressume.pdf" download className="hidden md:flex bg-slate-900 hover:bg-[#157AD5] text-white font-semibold px-4 py-2 items-center rounded-xl gap-2 transition-all duration-300 shadow-sm hover:shadow-md">
           Download CV
           <FaDownload className="text-sm" />
-        </button>
+        </a>
       </div>
 
       <span onClick={handleHamburgerClick} className="flex justify-end items-center text-slate-800 pr-3 sm:hidden cursor-pointer">
