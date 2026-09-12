@@ -4,7 +4,7 @@ A personal developer portfolio built with **React, TypeScript, and Tailwind CSS*
 
 ## 🌐 Live Website
 
-[Developer Portfolio](https://developer-portfolio-22tw5gwkj-reza-babd.vercel.app)
+[Developer Portfolio](https://developer-portfolio-kg852gwbo-reza-babd.vercel.app)
 
 ---
 
