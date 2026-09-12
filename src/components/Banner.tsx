@@ -8,8 +8,8 @@ export default function Banner() {
             <h2 className='bg-linear-to-r from-orange-900 to-purple-600 bg-clip-text text-transparent text-2xl font-semibold'>Full Stack Web Developer</h2>
             <p>I build modern and responsive web applications using Python, Django,React and Related Technologies. I love turning ideas into real products</p>
             <div className='flex items-center gap-5 md:gap-8 py-4'>
-                <button className="btn btn-active btn-primary">View My Projects</button>
-                <button className="btn btn-outline">Contact Me</button>
+                <button onClick={()=>document.getElementById('projects')?.scrollIntoView()} className="btn btn-active btn-primary">View My Projects</button>
+                <button onClick={()=>document.getElementById('contact')?.scrollIntoView()} className="btn btn-outline">Contact Me</button>
             </div>
         </div>
 <div className="relative flex justify-center items-center overflow-hidden min-h-72
