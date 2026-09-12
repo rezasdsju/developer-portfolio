@@ -80,6 +80,17 @@
   "rating": 4,
   "githubUrl": "https://github.com/rezasdsju/tic-tac-toe-game.git",
   "liveUrl": "https://tic-tac-toe-game-de3rii9gz-reza-babd.vercel.app/"
+},
+{
+  "id": "7",
+  "imageUrl": "/portfolio.png",
+  "title": "Developer Portfolio",
+  "description": "A personal developer portfolio website showcasing my skills, projects, and experience.",
+  "framework": "React",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind CSS",
+  "rating": 5,
+  "githubUrl": "https://github.com/rezasdsju/developer-portfolio.git",
+  "liveUrl": "https://developer-portfolio-9p2gtnt70-reza-babd.vercel.app"
 }
-
 ]
