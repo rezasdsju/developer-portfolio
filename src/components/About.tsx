@@ -42,7 +42,7 @@ export default function About() {
                         <img src={Experience} alt="" className='h-10 w-10 rounded-full' />
                         <div>
                             <p className='font-bold text-white'>Experience</p>
-                            <p className='text-purple-300'>Six Months</p>
+                            <p className='text-purple-300'> One Years</p>
                         </div>
                     </div>
  
