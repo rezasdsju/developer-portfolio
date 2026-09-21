@@ -13,6 +13,18 @@
 },
 {
   "id": "2",
+  "imageUrl": "/book-vibe.png",
+  "title": "Book Vibe",
+  "description": " A responsive book management web application that allows users to explore books, view detailed information, manage their Read List and Wish List, sort saved books, and visualize their reading progress.",
+  "framework": "Next.js",
+  "language": "TypeScript",
+  "additionalTechnology": "Tailwind",
+  "rating": 5,
+  "githubUrl": "https://github.com/rezasdsju/book-vibe.git",
+  "liveUrl": "https://book-vibe-b1db.vercel.app/"
+},
+{
+  "id": "3",
   "imageUrl": "/natures-platter.png",
   "title": "Nature's Platter",
   "description": "A responsive food website showcasing fresh and healthy food items with a clean and user-friendly interface.",
@@ -24,7 +36,7 @@
   "liveUrl": "https://rezasdsju.github.io/Nature-s-Platter/"
 },
 {
-  "id": "3",
+  "id": "4",
   "imageUrl": "/devstack.png",
   "title": "DevStack",
   "description": "A developer-focused web application built with React and TypeScript for exploring development resources and technologies.",
@@ -33,13 +45,13 @@
   "additionalTechnology": "Tailwind CSS",
   "rating": 5,
   "githubUrl": "https://github.com/rezasdsju/devstack.git",
-  "liveUrl": "https://devstack-8tc8r664t-reza-babd.vercel.app/"
+  "liveUrl": "https://devstack-tawny.vercel.app/"
 },
 
     
 
 {
-  "id": "4",
+  "id": "5",
   "imageUrl": "/bpl-dream.png",
   "title": "BPL Dream Eleven",
   "description": "A cricket team management web application where users can explore players and build their own dream team.",
@@ -48,12 +60,12 @@
   "additionalTechnology": "Tailwind CSS",
   "rating": 5,
   "githubUrl": "https://github.com/rezasdsju/BPL-Dream-Eleven.git",
-  "liveUrl": "https://bpl-dream-eleven-asgwot12s-reza-babd.vercel.app/"
+  "liveUrl": "https://bpl-dream-eleven-eight.vercel.app/"
 },
 
 
 {
-  "id": "5",
+  "id": "6",
   "imageUrl": "/country-image.png",
   "title": "Country Explorer",
   "description": "A country exploration web application where users can explore country information, view details, and mark countries as visited.",
@@ -68,7 +80,7 @@
 
 
 {
-  "id": "6",
+  "id": "7",
   "imageUrl": "/grocery.png",
   "title": "Grocery Store",
   "description": "A grocery product search application where users can search for products and filter items based on their stock availability.",
@@ -77,12 +89,12 @@
   "additionalTechnology": "Tailwind CSS",
   "rating": 4,
   "githubUrl": "https://github.com/rezasdsju/product-search-react-ts.git",
-  "liveUrl": "https://search-3hs9sc98m-reza-babd.vercel.app/"
+  "liveUrl": "https://search-app-self.vercel.app/"
 },
 
 
 {
-  "id": "7",
+  "id": "8",
   "imageUrl": "/tic-tac.png",
   "title": "Tic-Tac-Toe",
   "description": "A classic Tic-Tac-Toe game built with React and TypeScript, allowing two players to play the game and displaying the winner when the game ends.",
@@ -91,10 +103,10 @@
   "additionalTechnology": "Tailwind CSS",
   "rating": 4,
   "githubUrl": "https://github.com/rezasdsju/tic-tac-toe-game.git",
-  "liveUrl": "https://tic-tac-toe-game-de3rii9gz-reza-babd.vercel.app/"
+  "liveUrl": "https://tic-tac-toe-game-eta-beige.vercel.app/"
 },
 {
-  "id": "8",
+  "id": "9",
   "imageUrl": "/portfolio.png",
   "title": "Developer Portfolio",
   "description": "A personal developer portfolio website showcasing my skills, projects, and experience.",
@@ -103,6 +115,6 @@
   "additionalTechnology": "Tailwind CSS",
   "rating": 5,
   "githubUrl": "https://github.com/rezasdsju/developer-portfolio.git",
-  "liveUrl": "https://developer-portfolio-9p2gtnt70-reza-babd.vercel.app"
+  "liveUrl": "https://world-explorer-b.vercel.app/"
 }
 ]
