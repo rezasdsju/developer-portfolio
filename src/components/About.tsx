@@ -5,6 +5,7 @@ import DjangoImage from '../assets/django.png'
 import JSIMage from '../assets/js.png'
 import ReactImage from '../assets/react.jfif'
 import TypeScriptImage from '../assets/ts.png'
+import NextjsLogo from '../assets/next-js-logo.png'
 // import { FaGraduationCap } from 'react-icons/fa'
 import GraduationCap from '../assets/graduation-cap.jfif'
 import Map from '../assets/map-2.jfif'
@@ -76,6 +77,10 @@ export default function About() {
                     <div className='flex flex-col items-center '>
                         <img src={ReactImage} alt="" className='h-20' />
                         <h3>React</h3>
+                    </div>
+                    <div className='flex flex-col items-center '>
+                        <img src={NextjsLogo} alt="" className='h-20' />
+                        <h3>NEXT.js</h3>
                     </div>
                     <div className='flex flex-col items-center '>
                         <img src={TailwindImage} alt="" className='h-20' />
